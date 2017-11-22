@@ -10,7 +10,7 @@ const app            = express();
 const io             = socketIo(app.Server);
 
 // Inicia conexão com o banco de dados MongoDB
-const db = mongoose.connect('mongodb://179.198.28.212:27017/sample', function(err){
+const db = mongoose.connect('mongodb://45.32.168.136/sample', function(err){
 
     // Caso aconteça algum erro na conexao, interrompe o fluxo
     if(err) throw new Error(err.message);
